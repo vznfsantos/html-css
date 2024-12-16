@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaje Já - Cadastre-se</title>
+    <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style-formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2 class="header">Cadastre-se</h2>
+        <form id="form" class="form" method="get">
+            <div class="form-control">
+                <label for="nome-usuario">Nome de usuário *</label>
+                <input type="text" id="name" placeholder="Digite seu nome completo" required>
+            </div>
+            <div class="form-control">
+                <label for="numero-cpf">CPF *</label>
+                <input type="text" id="CPF" maxlength="14" placeholder="000.000.000-00" required>
+            </div>
+            <div class="form-control">
+                <label for="email-usuario">Email *</label>
+                <input type="text" id="email" placeholder="Digite seu email" required>
+            </div>
+            <div class="form-control">
+                <label for="senha-usuario">Senha *</label>
+                <input type="password" id="senha" placeholder="Digite sua senha" required>
+            </div>
+            <div class="form-control">
+                <label for="confirmacao-senha">Confirme sua senha *</label>
+                <input type="password" id="senha-confirmacao" placeholder="Digite sua senha novamente" required>
+            </div>
+                
+        <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/b7c54f0838.js" crossorigin="anonymous"></script>
+    <script src="js/script-get-formulario.js"></script>
+</body>
+</html>
